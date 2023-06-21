@@ -1,0 +1,51 @@
+name: mi_card
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  #font_awesome_flutter: <latest_version>
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/logo.jpg
+    - images/whatsapp.png
+
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+    - family: Source Sans Pro
+      fonts:
+         - asset: fonts/SourceSansPro-Regular.ttf
+
+    - family: robo
+      fonts:
+        - asset: fonts/RobotoSlab-Regular.ttf
+
+    - family: right
+      fonts:
+        - asset: fonts/Righteous-Regular.ttf
+
+
+
+
+
+
+
+
